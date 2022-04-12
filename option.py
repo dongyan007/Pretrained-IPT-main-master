@@ -35,7 +35,7 @@ parser.add_argument('--data_range', type=str, default='1-800/810-810',
                     help='train/test data range')
 parser.add_argument('--ext', type=str, default='sep',
                     help='dataset file extension')
-parser.add_argument('--scale', type=str, default='3',
+parser.add_argument('--scale', type=str, default='4',
                     help='super resolution scale')
 parser.add_argument('--patch_size', type=int, default=48,
                     help='output patch size')
