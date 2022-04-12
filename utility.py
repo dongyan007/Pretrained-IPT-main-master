@@ -10,7 +10,7 @@ from multiprocessing import Queue
 
 import matplotlib
 from scipy import signal
-from skimage.measure import compare_ssim
+# from skimage.measure import compare_ssim
 
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
